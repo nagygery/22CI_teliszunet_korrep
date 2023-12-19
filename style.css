@@ -1,0 +1,63 @@
+@font-face {
+    font-family: cim;
+    src: url(fonts/BronzionDeco_PERSONAL_USE_ONLY.otf);
+  }
+  @font-face {
+    font-family: szoveg;
+    src: url(fonts/IMFeENsc28P.ttf);
+  }
+  nav ul{
+    list-style-image: none;
+    list-style: none;
+  }
+  nav a{
+    text-decoration: none;
+    color:burlywood;
+  }
+  h1{
+    font-size:3em
+  }
+  h2{
+    font-size:2.5em;
+  }
+  h3{
+    font-size:2em
+  }
+  h4{
+    font-size:1.5em;
+  }
+  h5{
+    font-size:1.2em;
+  }
+  h6{
+    font-size:1em;
+  }
+  p{
+    font-size:1em;
+  }
+          
+.text-justify{
+    text-align:justify;
+}
+nav{
+    height: 100dvh;
+}
+main{
+    height: 100dvh;
+    overflow-y: scroll;
+    font-family: szoveg;
+}
+header{
+    background-image: url(img/bg.png);
+    font-family: cim;
+}
+.kep01{
+    max-width: 25vw;
+}
+.beszed{
+    font-style: italic;
+}
+ul{
+    list-style-image: url('img/dice.png');
+    list-style-position: inside;
+}
